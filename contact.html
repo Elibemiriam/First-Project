@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Miriam's Contact HTML project">
+        <meta name="author" content="Elibe Miriam">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miriam's Contact </title>
+    </head>
+
+    <body>
+        <h1>Contact Me</h1>
+            <p>My Address</p>
+            <p>09161737541</p>
+            <p>Elibemiriamuc@gmail.com/p>
+                <form action="mailto:elibemiriam7@gmail.com" class="index.html" method="post" enctype="text/plain">
+                    <!--Action attribute is where you want the information from the form element to be sent to while "post" means that the browser should send evrything being submitted in the form element to the destination stated in the action attribute. enctype=text/plain, the enctype attribute would enable the browser send information to the specified destination as just plain text and without punction and percentage mark-->
+                    <label for="">Your Name:</label>
+                    <input type="text" name="yourname" > 
+                    <!-- The name attribute for the input element helps the browser know how to classify the information youre getting from the input. e.g when you ask for email and name="your email". the browser would post the user response as your email:the user response-->
+                    <br>
+                    <label for="">Email:</label>
+                    <input type="email" name="yourEmail">
+                     <br>
+                    <label for="">Your Message:</label>
+                    <br>
+                    <textarea name="" rows="10" cols="30" name="yourmessage" id=""></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            
+        
+        
+    </body>
+</html>
